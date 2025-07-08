@@ -21,3 +21,5 @@ Route::get('/greet/{name}', function($name){
 Route::fallback(function(){
     return '404 Not Found';
 });
+
+//use php artisan route:list to see the list of routes
